@@ -1,6 +1,7 @@
 package com.fynn;
 
 public class Person {
+	
 	private String name;
 	private int age;
 
@@ -34,5 +35,13 @@ public class Person {
 
 	public void init(){
 		System.out.println("init method");
+	}
+	
+	static{
+		System.out.println("static block");
+	}
+	
+	{
+		System.out.println("block");
 	}
 }

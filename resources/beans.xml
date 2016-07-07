@@ -7,11 +7,11 @@
 
 	<bean id="FynnLaw" class="com.fynn.Person" init-method="init">
 		<description>spring test</description>
-		<constructor-arg value="18788895961" ></constructor-arg>
-		<constructor-arg value="123" ></constructor-arg>
+		<!-- 构造函数参数要么都不设置要么都设置 -->
+<!-- 		<constructor-arg value="18788895961" ></constructor-arg> -->
+<!-- 		<constructor-arg value="123" ></constructor-arg> -->
 		<property name="name" value="FynnLaw" />
 		<property name="age" value="100"></property>
-		
 	</bean>
 
 </beans>
