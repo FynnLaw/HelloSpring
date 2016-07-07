@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="FynnLaw" class="com.fynn.Person" init-method="init">
+		<description>spring test</description>
+		<constructor-arg value="18788895961" ></constructor-arg>
+		<constructor-arg value="123" ></constructor-arg>
+		<property name="name" value="FynnLaw" />
+		<property name="age" value="100"></property>
+		
+	</bean>
+
+</beans>
